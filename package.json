@@ -20,7 +20,7 @@
 		"lint-fix": "eslint ./src --fix",
 		"format-fix": "prettier --write \"**/*{js,jsx,css,scss,less}\"",
 		"prepare": "husky install",
-		"lint-staged": "lint-staged"
+		"lint-staged": "lint-staged --no-stash"
 	},
 	"eslintConfig": {
 		"extends": [
